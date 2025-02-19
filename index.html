@@ -1,23 +1,69 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VR Company | VR制作・Web制作・VR映像制作</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <h1>VR制作・Web開発の会社</h1>
+      <nav>
+        <h1>TEST CREATE株式会社</h1>
+        <ul>
+          <li><a href="#about">私たちについて</a></li>
+          <li><a href="#services">サービス</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
     </header>
+
+    <section class="hero">
+      <video autoplay loop muted playsinline class="hero-video">
+        <source src="background.mp4" type="video/mp4" />
+        お使いのブラウザは動画タグをサポートしていません。
+      </video>
+      <div class="hero-content">
+        <h2>最先端のVR体験を提供</h2>
+        <p>VRの180度3D映像制作、Web・アプリ開発をお任せください。</p>
+        <a href="#contact" class="btn">お問い合わせ</a>
+      </div>
+    </section>
+
     <main>
-        <section>
-            <h2>私たちについて</h2>
-            <p>VRの180度3D映像の撮影編集、Web開発、アプリ開発を行っています。</p>
-        </section>
+      <section id="about">
+        <h2>私たちについて</h2>
+        <p>
+          TEST
+          CREATE株式会社は、VR映像制作とWeb開発のプロフェッショナル集団です。
+        </p>
+      </section>
+
+      <section id="services">
+        <h2>サービス</h2>
+        <div class="service">
+          <h3>VR映像制作</h3>
+          <p>最高品質のVRコンテンツを提供します。</p>
+        </div>
+        <div class="service">
+          <h3>Web制作</h3>
+          <p>最新技術を活用したWebサイトを開発します。</p>
+        </div>
+        <div class="service">
+          <h3>アプリ開発</h3>
+          <p>iOS・Androidアプリの開発もお任せください。</p>
+        </div>
+      </section>
     </main>
+
+    <section id="contact">
+      <h2>お問い合わせ</h2>
+      <p>ご相談やお見積りはお気軽にご連絡ください。</p>
+      <a href="mailto:info@example.com" class="btn">メールを送る</a>
+    </section>
+
     <footer>
-        <p>&copy; 2025 会社名. All rights reserved.</p>
+      <p>&copy; 2025 TEST CREATE株式会社. All rights reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
