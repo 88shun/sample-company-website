@@ -1,6 +1,6 @@
 header {
     background: #222;
-    color: white;
+    color: #ccc;
     padding: 15px 0;
     position: fixed;
     width: 100%;
@@ -17,11 +17,36 @@ header {
     margin: auto;
   }
   
-  nav h1 a {
+  /* ▼ ロゴ（PORTFOLIO） */
+  .site-header h1 a {
     text-decoration: none;
     color: inherit;
+    font-weight: bold;
+    position: relative;
   }
   
+  .site-header h1 a::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: 2px;
+    background-color: #ff6b6b;
+    transition: transform 0.3s ease;
+  }
+  
+  .site-header h1 a:hover {
+    color: #ff6b6b;
+  }
+  
+  .site-header h1 a:hover::after {
+    transform: translateX(-50%) scaleX(1);
+  }
+  
+  /* ▼ ナビゲーションメニュー */
   nav ul {
     list-style: none;
     display: flex;
@@ -32,8 +57,31 @@ header {
   }
   
   nav ul li a {
-    color: white;
+    color: #ccc;
     text-decoration: none;
     font-weight: bold;
+    position: relative;
+    transition: color 0.2s ease;
+  }
+  
+  nav ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: 2px;
+    background-color: #ff6b6b;
+    transition: transform 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6b6b;
+  }
+  
+  nav ul li a:hover::after {
+    transform: translateX(-50%) scaleX(1);
   }
   

@@ -1,105 +1,97 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ABOUT | VR Company</title>
-  <link rel="stylesheet" href="styles/base.css" />
-  <link rel="stylesheet" href="styles/header.css" />
-  <link rel="stylesheet" href="styles/about.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABOUT | VR Company</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/footer.css">
 
-  <script type="text/javascript">
-   var password = "duebshfg"; // ここに設定したいパスワードを入れる
-   var pass1 = prompt('パスワードを入力してください:');
-   if (pass1 != password) {
-     alert("間違ったパスワードです！");
-     window.location = "https://www.google.com"; // パスワードが間違っている場合、別のページにリダイレクト
-   }
- </script>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
 
-  <header>
-    <nav>
-      <h1><a href="index.html">PORTFOLIO</a></h1>
-      <ul>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="works.html">WORK</a></li>
-        <li><a href="services.html">SERVICES</a></li>
-        <li><a href="prices.html">PRICES</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-      </ul>
-    </nav>
-  </header>
+    <script type="text/javascript">
+      var password = "duebshfg"; // ここに設定したいパスワードを入れる
+      var pass1 = prompt("パスワードを入力してください:");
+      if (pass1 != password) {
+        alert("間違ったパスワードです！");
+        window.location = "https://www.google.com"; // パスワードが間違っている場合、別のページにリダイレクト
+      }
+    </script>
+  </head>
+  <body>
+    <header id="header"></header>
 
-  <section class="hero about-hero">
-    <div class="hero-content">
-      <h2>ABOUT</h2>
-      <p>私たちは、VR・Web開発・3D映像制作に特化したクリエイティブチームです。<br>
-         テクノロジーとデザインを融合し、新しい体験を社会に届けます。</p>
-    </div>
-  </section>
-
-  <main>
-    <section class="about-section">
-      <h3>代表プロフィール</h3>
-      <div class="profile-container">
-        <div class="profile-image">
-          <img src="images/00.jpeg" alt="代表の写真">
-        </div>
-      <div class="profile-text">
-        <h4>蜂須 瞬（Hachisu Shun）</h4>
-         <p>代表 / クリエイティブディレクター</p>
-         <p>
-            千葉工業大学 創造工学部 デザイン科学科 卒業<br>
-            慶應義塾大学大学院 メディアデザイン研究科 卒業<br>
-            日本アイ・ビー・エム システムズ・エンジニアリング株式会社 勤務を経て独立
-         </p>
-       </div>
+    <section class="hero about-hero">
+      <div class="hero-content">
+        <h2>ABOUT</h2>
+        <p>
+          私たちは、VR・Web開発・3D映像制作に特化したクリエイティブチームです。<br />
+          テクノロジーとデザインを融合し、新しい体験を社会に届けます。
+        </p>
       </div>
     </section>
 
-    <section class="about-section">
-      <h3>開業のきっかけ・理念</h3>
-      <p>
-        <!-- なぜ始めたのか？どんな想い・理念を持っているのか -->
-        例：VRと出会った原体験、仕事を通じて社会に届けたい価値
-      </p>
-    </section>
+    <main>
+      <section class="about-section">
+        <h3>代表プロフィール</h3>
+        <div class="profile-container">
+          <div class="profile-image">
+            <img src="images/00.jpeg" alt="代表の写真" />
+          </div>
+          <div class="profile-text">
+            <h4>蜂須 瞬（Hachisu Shun）</h4>
+            <p>代表 / クリエイティブディレクター</p>
+            <p>
+              千葉工業大学 創造工学部 デザイン科学科 卒業<br />
+              慶應義塾大学大学院 メディアデザイン研究科 卒業<br />
+              日本アイ・ビー・エム システムズ・エンジニアリング株式会社
+              勤務を経て独立
+            </p>
+          </div>
+        </div>
+      </section>
 
-    <section class="about-section">
-      <h3>得意分野</h3>
-      <p>
-        <!-- 得意なジャンル・ツール・技術など -->
-        例：WebVR / Unity / HTML / 映像編集 / ライティング / モデリング
-      </p>
-    </section>
+      <section class="about-section">
+        <h3>開業のきっかけ・理念</h3>
+        <p>
+          <!-- なぜ始めたのか？どんな想い・理念を持っているのか -->
+          例：VRと出会った原体験、仕事を通じて社会に届けたい価値
+        </p>
+      </section>
 
-    <section class="about-section">
-      <h3>信頼の実績</h3>
-      <p>
-        <!-- 展示・受賞歴、取引実績、メディア掲載など -->
-        例：〇〇展出展 / △△アワード受賞 / ××社との共同制作 etc.
-      </p>
-    </section>
+      <section class="about-section">
+        <h3>得意分野</h3>
+        <p>
+          <!-- 得意なジャンル・ツール・技術など -->
+          例：WebVR / Unity / HTML / 映像編集 / ライティング / モデリング
+        </p>
+      </section>
 
-    <section class="about-section">
-      <h3>作風・キャラクター</h3>
-      <p>
-        <!-- 顔出しをしない場合、自分らしさを出す部分 -->
-        例：Neoとしての世界観や、ユーモア・丁寧さ・世界観へのこだわりなど
-      </p>
-    </section>
-  </main>
+      <section class="about-section">
+        <h3>信頼の実績</h3>
+        <p>
+          <!-- 展示・受賞歴、取引実績、メディア掲載など -->
+          例：〇〇展出展 / △△アワード受賞 / ××社との共同制作 etc.
+        </p>
+      </section>
 
-  <footer>
-    <p>
-      <a href="https://www.linkedin.com/in/%E7%9E%AC-%E8%9C%82%E9%A0%88-58625034b/" target="_blank">
-        <i class="fab fa-linkedin"></i> LinkedIn
-      </a>
-    </p>
-  </footer>
+      <section class="about-section">
+        <h3>作風・キャラクター</h3>
+        <p>
+          <!-- 顔出しをしない場合、自分らしさを出す部分 -->
+          例：Neoとしての世界観や、ユーモア・丁寧さ・世界観へのこだわりなど
+        </p>
+      </section>
+    </main>
 
-</body>
+    <footer id="footer"></footer>
+
+    <script src="scripts/header.js"></script>
+    <script src="scripts/footer.js"></script>
+  </body>
 </html>
