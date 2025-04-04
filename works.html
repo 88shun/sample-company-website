@@ -3,28 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VR Company | VR制作・Web制作・VR映像制作</title>
+    <title>WORKS | 過去の制作実績</title>
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/contact.css" />
-    <link rel="stylesheet" href="styles/footer.css">
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-
-    <script type="text/javascript">
-      var password = "duebshfg"; // ここに設定したいパスワードを入れる
-      var pass1 = prompt("パスワードを入力してください:");
-      if (pass1 != password) {
-        alert("間違ったパスワードです！");
-        window.location = "https://www.google.com"; // パスワードが間違っている場合、別のページにリダイレクト
-      }
-    </script>
+    <link rel="stylesheet" href="styles/works.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   </head>
   <body>
     <header id="header"></header>
+
+    <main>
+      <section class="works">
+        <h2 class="section-title">WORKS</h2>
+
+        <div class="works-grid">
+          <div class="work-card">
+            <h3>VR×画像生成AI</h3>
+            <p>会話の話題を反映したリアルタイムパノラマ画像生成</p>
+            <iframe src="https://www.youtube.com/embed/hH1Py0WZsRE" frameborder="0" allowfullscreen></iframe>
+            <div class="work-meta">
+              <h4>Exhibitions & Publications</h4>
+              <ul>
+                <li><a href="https://conference.vrsj.org/ac2023/program/doc/2B1-10.pdf" target="_blank">VR学会2023</a></li>
+                <li><a href="https://dl.acm.org/doi/10.1145/3610542.3626127" target="_blank">SIGGRAPH ASIA 2023</a></li>
+                <li><a href="https://artbaytokyo.com/artbayfes2023/area_e_f/index.html" target="_blank">ARTBAY TOKYO</a></li>
+              </ul>
+              <h4>Media & Awards</h4>
+              <ul>
+                <li><a href="https://www.ntv.co.jp/imaginarium/artist/" target="_blank">イマジナリウムアワード2023</a></li>
+                <li><a href="https://xrc.or.jp/award2023/" target="_blank">XR CREATIVE AWARD 2023</a></li>
+                <li><a href="https://www.kmd.keio.ac.jp/ja/news/2024/01/conversation-echo-won-a-prize-at-the-nittele-imaginarium-awards-2023.html" target="_blank">日テレ イマジナリウム アワード 2023記事</a></li>
+                <li><a href="https://www.kmd.keio.ac.jp/ja/news/2024/02/conversation-echo-named-finalist-in-xr-creative-award-2023-student-division.html" target="_blank">XR CREATIVE AWARD 2023記事</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="work-card">
+            <h3>VRレースゲーム</h3>
+            <p>身体の不自由な人でも飛ぶ感覚を体験できるVRレースゲーム</p>
+            <iframe src="https://www.youtube.com/embed/3UwQxTX_ut8" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+          <div class="work-card">
+            <h3>イルミネーション鑑賞VR</h3>
+            <p>時代を超えて思い出を体験できるイルミネーション鑑賞アプリ</p>
+            <iframe src="https://www.youtube.com/embed/UH0CsqA5Gzs" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+          <div class="work-card">
+            <h3>ヤモリ体験VR</h3>
+            <p>壁歩き体験～ヤモリになろう！</p>
+            <iframe src="https://www.youtube.com/embed/IXiECWVXfNM" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+          <div class="work-card">
+            <h3>不動産Webサイト制作</h3>
+            <p>現在制作中...</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <footer id="footer"></footer>
 
     <script src="scripts/header.js"></script>
